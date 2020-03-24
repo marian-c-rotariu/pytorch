@@ -196,5 +196,7 @@ TORCH_API void DedupModuleUses(Module& module);
 
 TORCH_API script::Module Finalize(script::Module& module);
 
+TORCH_API void FoldQuantizedPrepackingOps(Module& module);
+
 } // namespace jit
 } // namespace torch
